@@ -1,0 +1,97 @@
+.cart-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 36px;
+  margin-bottom: 36px;
+}
+.cart-container table {
+  width: 100%;
+}
+
+.cart-container table thead,
+.cart-container table tbody {
+  text-align: center;
+  padding: 8px;
+}
+
+.cart-container table thead {
+  background-color: #f8f9fa;
+}
+.cart-container table thead tr th {
+  padding: 12px;
+}
+.cart-container table tbody tr td {
+  font-weight: 100;
+  font-size: 14px;
+  padding: 12px;
+  color: #939393;
+}
+.cart-container table tbody tr td img {
+  width: 80%;
+  height: auto;
+}
+.cart-container table tbody tr td i {
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.go-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #f8f9fa;
+  align-items: center;
+}
+.go-page a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 100;
+  font-size: 14px;
+}
+.go-page a:last-child {
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.update-cart {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: baseline;
+}
+.update-cart p {
+  padding: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+.update-cart p:nth-child(2) {
+  cursor: default;
+  font-weight: bold;
+  padding: 12px 0;
+}
+.cart-total {
+  padding: 36px;
+  background-color: #f8f9fa;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 100;
+  align-items: center;
+  color: #939393;
+}
+.coupon input,
+.coupon button {
+  width: 100%;
+  font-family: sans-serif;
+}
+.coupon input:first-child {
+  font-size: 14px;
+  border: 1px solid #939393;
+}
+
+.coupon input:first-child:focus {
+  outline: none;
+}

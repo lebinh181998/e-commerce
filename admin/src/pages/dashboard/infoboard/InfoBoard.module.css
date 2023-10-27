@@ -1,0 +1,5 @@
+.info-board {
+  display: flex;
+  gap: 2px;
+  justify-content: space-around;
+}

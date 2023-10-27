@@ -1,0 +1,9 @@
+.box-title p {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 14px;
+}
+.box-title {
+  text-align: left;
+  margin-bottom: 24px;
+}

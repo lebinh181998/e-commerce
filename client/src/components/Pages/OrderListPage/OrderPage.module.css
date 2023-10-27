@@ -1,0 +1,46 @@
+.order-container {
+  margin-top: 48px;
+}
+.order-container .info-order {
+  color: #939393;
+}
+.order-container table {
+  width: 100%;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.order-container table thead,
+.order-container table tbody {
+  text-align: center;
+  padding: 8px;
+}
+
+.order-container table thead {
+  background-color: #f8f9fa;
+}
+.order-container table thead tr th {
+  padding: 12px;
+}
+tbody tr td {
+  padding: 12px;
+  width: 30%;
+}
+.order-container table tbody tr td img {
+  width: 50%;
+}
+.order-container table tbody tr td i {
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.order-container table tr td a {
+  text-decoration: none;
+  color: #000 !important;
+  background-color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+}

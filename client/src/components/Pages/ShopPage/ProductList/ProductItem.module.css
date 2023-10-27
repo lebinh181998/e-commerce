@@ -1,0 +1,21 @@
+.pointer {
+  cursor: pointer;
+}
+.pointer img {
+  margin-bottom: 24px;
+  height: auto;
+}
+.product-info {
+  text-align: center;
+}
+.product-info {
+  text-align: center;
+}
+.product-info p:last-child {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 14px;
+}
+img {
+  width: 100%;
+}

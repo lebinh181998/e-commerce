@@ -1,0 +1,23 @@
+.category {
+  margin-top: 60px;
+}
+.category div div {
+  margin-top: 24px;
+}
+.category div div a {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.box-title {
+  text-align: center;
+}
+.box-title p {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 14px;
+}
+.category img {
+  width: 100%;
+  height: auto;
+}

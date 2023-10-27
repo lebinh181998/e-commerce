@@ -1,0 +1,25 @@
+.shop {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 24px;
+}
+.category-container h3 {
+  margin-bottom: 24px;
+}
+.sort_and_search {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.sort_and_search input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  width: 40%;
+}
+.sort_and_search input:focus {
+  outline: none;
+  border: 1px solid #fff185;
+}
+.sort_and_search select {
+  padding-right: 24px;
+}

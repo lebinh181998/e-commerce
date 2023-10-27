@@ -1,0 +1,11 @@
+{
+  "env": {
+    "MONGO_USER": "binhlfx23210",
+    "MONGO_PASSWORD": "0z0z0z",
+    "MONGO_DATABASE": "ecommerce",
+    "CORS_CLIENT_URL": "http://localhost:3000",
+    "CORS_ADMIN_URL": "http://localhost:3001",
+    "COOKIE_SECURE": false,
+    "COOKIE_SAMESITE": "Lax"
+  }
+}

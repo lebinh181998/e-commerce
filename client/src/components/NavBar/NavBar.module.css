@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.navbar .navbar-left a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: #000;
+}
+.navbar .navbar-right {
+  display: flex;
+}
+.navbar .navbar-right a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  gap: 2px;
+  align-items: baseline;
+}
+.navbar div a:hover {
+  color: #fff185;
+}
+.navbar div a:hover i {
+  color: #fff185;
+}
+
+.active {
+  color: #fff185 !important;
+}
+.navbar i {
+  color: #ccc;
+}
+.navbar .username {
+  display: flex;
+  gap: 2px;
+}
+.navbar .username p {
+  margin: 0;
+}
+.navbar .username i {
+  color: #000;
+  /* margin-bottom: 4px; */
+}

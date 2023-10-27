@@ -1,0 +1,21 @@
+.categories,
+.category {
+  list-style: none;
+  padding: 0;
+}
+.categories li p {
+  background-color: #f9fcff;
+  padding: 12px 24px;
+  margin: 0;
+}
+.categories li:first-child p {
+  background-color: #000;
+  color: #fff;
+}
+.category {
+  padding: 12px 24px;
+  line-height: 32px;
+}
+.category li {
+  cursor: pointer;
+}

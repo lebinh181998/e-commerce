@@ -1,0 +1,41 @@
+.trending {
+  margin-top: 48px;
+}
+.box-title p {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 14px;
+}
+.box-title {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+img {
+  width: 100%;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer img {
+  margin-bottom: 24px;
+  height: auto;
+}
+.trending .product-info {
+  text-align: center;
+}
+.trending .product-info p:last-child {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.body-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 4;
+}

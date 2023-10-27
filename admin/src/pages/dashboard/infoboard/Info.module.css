@@ -1,0 +1,21 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+.info p {
+  margin: 0;
+}
+.info .title {
+  color: #999999;
+}
+.info .icon {
+  color: #999999;
+}
+.info .content {
+  display: flex;
+}

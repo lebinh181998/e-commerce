@@ -1,0 +1,23 @@
+.popup {
+  grid-column: 2/1;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  height: 100%;
+  padding: 12px;
+}
+.popup ul {
+  list-style: none;
+  line-height: 2em;
+}
+.popup ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.popup ul li button {
+  border: 0;
+  background-color: #fff;
+}
+.popup p {
+  margin: 0;
+  font-size: 12px;
+}

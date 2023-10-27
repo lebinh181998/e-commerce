@@ -1,0 +1,43 @@
+.orders {
+  width: 100%;
+  text-align: center;
+  padding: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 36px;
+  background-color: #fff;
+}
+.orders p {
+  text-align: left;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+.orders table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #999999;
+}
+.orders table tr th,
+.orders table tr td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #f4f4f4;
+}
+.orders table tr td {
+  padding: 16px;
+}
+.orders table tr th p {
+  padding: 0 12px;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.orders table tbody tr:nth-child(odd) {
+  background-color: #f0f7fe;
+}
+.orders table tbody tr td button {
+  color: #00760c;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: normal;
+  border: 0;
+  border-radius: 6px;
+}

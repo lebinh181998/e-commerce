@@ -1,0 +1,66 @@
+.order-detail-container {
+  margin-top: 48px;
+  background-color: #fff;
+  margin: 24px;
+  padding: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.order-detail-container .info-order {
+  color: #939393;
+}
+.order-detail-container .info-order .status span:first-child {
+  background-color: #2beb00ee;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.order-detail-container .info-order .status span:nth-child(2) {
+  background-color: #008cfeee;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.order-detail-container table {
+  width: 100%;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.order-detail-container table thead,
+.order-detail-container table tbody {
+  text-align: center;
+  padding: 8px;
+}
+
+.order-detail-container table thead {
+  background-color: #f8f9fa;
+}
+.order-detail-container table thead tr th {
+  padding: 12px;
+}
+tbody tr td {
+  padding: 12px;
+  width: 30%;
+}
+.order-detail-container table tbody tr td img {
+  width: 50%;
+}
+.order-detail-container table tbody tr td i {
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.order-detail-container table tr td a {
+  text-decoration: none;
+  color: #000 !important;
+  background-color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+}

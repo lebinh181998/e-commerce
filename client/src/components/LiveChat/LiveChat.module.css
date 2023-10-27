@@ -1,0 +1,136 @@
+.livechat-button {
+  border-radius: 50%;
+  color: #000;
+  border: 8px solid #000;
+  cursor: pointer;
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  width: 72px;
+  height: 72px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background-color: #fff;
+}
+.livechat-button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+.livechat-box {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  width: 35%;
+  border-radius: 12px;
+  background-color: #fff;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+  animation: livechat 1s 1;
+}
+.livechat-box .livechat-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.livechat-box .livechat-title p {
+  margin: 0;
+}
+.livechat-box .livechat-title p:first-child {
+  font-weight: bold;
+}
+.livechat-box .livechat-title p:last-child {
+  background-color: #e3e3e3;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.livechat-box .livechat-title p:last-child:hover {
+  background-color: #818181;
+  color: #e3e3e3;
+}
+.chat {
+  overflow-y: auto;
+  font-size: 14px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-weight: 100;
+  height: 100%;
+}
+.chat div {
+  width: 70%;
+}
+.chat .chat-left {
+  text-align: left;
+  display: flex;
+  gap: 4px;
+}
+.chat .chat-right {
+  text-align: right;
+  margin-left: auto;
+  color: #fff;
+  font-weight: 100;
+}
+.chat div p {
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.chat .chat-left i {
+  font-size: 28px;
+}
+.chat .chat-right p {
+  background-color: #7bc8ff;
+}
+.chat .chat-left p {
+  background-color: #f7f7f7;
+}
+.chat-box {
+  display: flex;
+  gap: 12px;
+  padding: 16px 24px;
+  background-color: #fbfdff;
+  border-top: 1px solid #f7f7f7;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  align-items: center;
+}
+.chat-box i {
+  cursor: pointer;
+}
+.chat-box i:first-child {
+  cursor: context-menu;
+}
+.chat-box input {
+  border: 0;
+  width: 100%;
+}
+.chat-box input:focus {
+  outline: none;
+  border: 1px solid #fff185;
+}
+
+@keyframes livechat {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

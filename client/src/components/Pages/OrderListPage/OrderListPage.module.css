@@ -1,0 +1,42 @@
+.orders-container table {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.orders-container table thead,
+.orders-container table tbody {
+  text-align: center;
+  padding: 8px;
+}
+
+.orders-container table thead {
+  background-color: #f8f9fa;
+}
+.orders-container table thead tr th {
+  padding: 12px;
+}
+.orders-container table tbody tr td {
+  font-weight: 100;
+  font-size: 14px;
+  padding: 12px;
+  color: #939393;
+}
+.orders-container table tbody tr td img {
+  width: 80%;
+  height: auto;
+}
+.orders-container table tbody tr td i {
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.orders-container table tr td a {
+  text-decoration: none;
+  color: #000 !important;
+  background-color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+}

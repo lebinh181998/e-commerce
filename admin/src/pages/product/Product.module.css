@@ -1,0 +1,19 @@
+.product a {
+  text-decoration: none;
+  background-color: #45ee7d;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 2px !important;
+  color: #fff;
+}
+.product a:last-child {
+  background-color: #f44d4d;
+  margin-left: 2px;
+}
+.product img {
+  width: 100%;
+}
+.product td:last-child {
+  white-space: nowrap;
+}
