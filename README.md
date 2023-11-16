@@ -19,7 +19,7 @@ A website used to buy products(iphone, ipad,...).
 - Extract project.
 - Download and install nodejs version 18.16.1 or larger at https://nodejs.org
 - Open cmd and find path to project folder.
-- Run "npm install".
+- Run "npm install" at `client`, `server` and `admin` folder.
 ## DEPLOYMENT GUIDE
 - Change the url to http://localhost:5000 in a few file and `use-input` file in `hook` folder.
 - Insert line "proxy": "http://localhost:5000" in `package.json`.
