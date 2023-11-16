@@ -21,5 +21,5 @@ A website used to buy products(iphone, ipad,...).
 - Open cmd and find path to project folder.
 - Run "npm install" at `client`, `server` and `admin` folder.
 ## DEPLOYMENT GUIDE
-- Change the url to http://localhost:5000 in a few file and `use-input` file in `hook` folder.
+- Change the url to http://localhost:5000 in a few file and `use-http` file in `hook` folder.
 - Insert line "proxy": "http://localhost:5000" in `package.json`.
